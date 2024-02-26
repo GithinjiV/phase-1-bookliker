@@ -2,3 +2,25 @@ body {
 	display: grid;
 	grid-template-columns: 2fr 8fr
 }
+
+.list{
+	padding: 10px;
+}
+#show-panel{
+	padding: 16px;
+}
+
+.thumbnail{
+	display: flex;
+	justify-content: center;
+}
+
+#titles{
+	list-style: none;
+	cursor:pointer;
+	padding: 14px;
+}
+
+#titles:hover{
+	color:blue;
+}
